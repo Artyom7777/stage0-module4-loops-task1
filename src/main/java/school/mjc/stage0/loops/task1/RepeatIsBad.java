@@ -4,10 +4,8 @@ public class RepeatIsBad {
 
     @SuppressWarnings("java:S106")
     public void repeatIsBad(){
-        int count = 1;
-        while (count <= 20){
+        for (int runner = 0; runner < 20; ++runner) {
             System.out.println("writing the same code doesn't have much impact, and it's also time consuming");
-            count ++;
         }
     }
 }
